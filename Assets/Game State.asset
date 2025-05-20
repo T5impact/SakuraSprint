@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b88d492947c4d534a9ac9e7624ceb4d5, type: 3}
+  m_Name: Game State
+  m_EditorClassIdentifier: 
+  raceFinished: 0
+  selectedHorse: 5
+  points: 0
+  currentHorseWeights:
+  - 28.197708
+  - 26.51975
+  - 28.764015
+  - 29.546537
+  - 28.5
+  - 29.153822
+  - 21.375
+  - 27.622213

@@ -1,0 +1,54 @@
+{
+    "name": "Action Set",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "a7e56c14-e580-4d07-ae21-309b4aeb5b92",
+            "actions": [
+                {
+                    "name": "CancelAction",
+                    "type": "Button",
+                    "id": "a9267e88-477c-40b5-b669-23622f97d77b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SkipAction",
+                    "type": "Button",
+                    "id": "9bb2fcd2-9c17-4492-bf74-514cbd4dffc5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cc466a32-7643-499d-8604-4dab0117749a",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CancelAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ace7ad2b-37bb-4701-8a23-8dd895809c4f",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SkipAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
